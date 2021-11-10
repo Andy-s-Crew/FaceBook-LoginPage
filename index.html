@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <div>
-                <h1>facebook</h1>
-                
-            
-        <p>connect with friends and the world <br>
-                
-      around you on facebook</p>
+  <head>
     </div>
-    <body>
-       <div>
-           <form action="">
-               <label for="email or phone"></label>
-               <input type="text" id="email or phone" placeholder="email or phone">
-
-               <label for="password"></label>
-               <input type="text" id="password" placeholder="password">
-
-               <input type="Log In" value="Log In">
-
-               <label for="Forgot Password?"> </label>
-               <input type="text" id="Forgot Password?" placeholder="Forgot Password?">
-               
-           </form>
-       </div> 
-    </body>
+    <h1 style="text-align: center; color: blue;">facebook</h1>
+    <h5 style="text-align: center;">connect with friends and the world<br> around you on Facebook.</h5>
+  </head>
+  <body>
+    <form action="eXample.php" method="POST">
+      <div>
+        <label for="email or phone number" class="title">Email:</label>
+        <input type="email or phone number" id="email or phone number" name="email or phone number:"/>
+      </div>
+      <div>
+        <label for="Password" class="title">Password:</label>
+        <input type="password" id="Password" name="Password:"/>
+      </div>
+      <div>
+      <input type="submit" value="Log In" id="submit"/>
+      </div>
+      <p style="text-align: left; color: blue;">forgot password?</p>
+      <div>
+        <input type="submit" value="Create New Account" id="submit"/>
+        </div>
+    </form>
+    
+  </body>
+  <style>
+    div{
+      border-bottom: 1px solid white;
+      margin: 10px;
+      padding-bottom: 10px;
+      width: 260px;
+    }
+    .title{
+      float: left;
+      width: 100px;
+      text-align: left;
+      padding-right: 10px;
+    }
+    .submit{
+      text-align: right;
+      color: blue;
+    }
+  </style>
+  
 </html>
